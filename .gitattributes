@@ -1,10 +1,29 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.mat filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.RData filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.pzfx filter=lfs diff=lfs merge=lfs -text
+#####################################
+# Global: Files to use with Git LFS #
+#####################################
+
+## Documents
 *.doc filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.xls filter=lfs diff=lfs merge=lfs -text
 *.xlsx filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.tsv filter=lfs diff=lfs merge=lfs -text
+*.ppt filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+
+## Pictures
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+
+## Code
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.RData filter=lfs diff=lfs merge=lfs -text
+
+
+## Other
+*.pzfx filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
